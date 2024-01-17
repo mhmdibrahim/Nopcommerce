@@ -1,0 +1,11 @@
+{
+  "gender": "Male",
+  "Register": "Register",
+  "firstname": "Mohamed",
+  "lastname": "Ibrahim",
+  "email": "devmhmd1@gmail.com",
+  "companyname": "Ejada",
+  "password": "123456Aa",
+  "confirmpassword": "123456Aa",
+  "successfulRegister": "Your registration completed"
+}
