@@ -10,7 +10,7 @@ public class TestAddToCart extends BaseTest{
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.clickLoginIcon();
-        loginPage.clickLoginIcon();
+
         loginPage.login(
                 JSONClass.readJson(loginData,"email"),
                 JSONClass.readJson(loginData,"password"));
