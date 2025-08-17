@@ -19,9 +19,9 @@ public class RegisterPage {
     protected final By companyField = By.id("Company");
     protected final By passwordField = By.id("Password");
     protected final By confirmPasswordField = By.id("ConfirmPassword");
-    protected final By dateOfBirthDay = By.name("DateOfBirthDay");
-    protected final By dateOfBirthMonth = By.name("DateOfBirthMonth");
-    protected final By dateOfBirthYear = By.name("DateOfBirthYear");
+//    protected final By dateOfBirthDay = By.name("DateOfBirthDay");
+//    protected final By dateOfBirthMonth = By.name("DateOfBirthMonth");
+//    protected final By dateOfBirthYear = By.name("DateOfBirthYear");
     protected final By registerBtn = By.name("register-button");
     protected final By completeRegister = By.className("result");
 //    protected final By continueBtn = By.className("register-continue-button");
@@ -39,16 +39,16 @@ public class RegisterPage {
         driver.findElement(firstNameField).sendKeys(firstName);
         driver.findElement(lastNameField).sendKeys(lastname);
 
-        WebElement dateOfBirth = driver.findElement(dateOfBirthDay);
-        Select select = new Select(dateOfBirth);
-        select.selectByValue("23");
-
-        WebElement monthOfBirth = driver.findElement(dateOfBirthMonth);
-        Select select1 = new Select(monthOfBirth);
-        select1.selectByValue("3");
-        WebElement yearOfBirth = driver.findElement(dateOfBirthYear);
-        Select select2 = new Select(yearOfBirth);
-        select2.selectByValue("1991");
+//        WebElement dateOfBirth = driver.findElement(dateOfBirthDay);
+//        Select select = new Select(dateOfBirth);
+//        select.selectByValue("23");
+//
+//        WebElement monthOfBirth = driver.findElement(dateOfBirthMonth);
+//        Select select1 = new Select(monthOfBirth);
+//        select1.selectByValue("3");
+//        WebElement yearOfBirth = driver.findElement(dateOfBirthYear);
+//        Select select2 = new Select(yearOfBirth);
+//        select2.selectByValue("1991");
 
         driver.findElement(emailField).sendKeys(email);
         driver.findElement(companyField).sendKeys(company);
